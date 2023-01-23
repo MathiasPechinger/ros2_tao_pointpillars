@@ -44,7 +44,7 @@ find_package(vision_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(PCL REQUIRED)
 find_package(CUDA REQUIRED)
-find_package(sensors_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
 
 set(CUDA_VERSION 11.3)
 set(CUDA_TOOLKIT_ROOT_DIR /usr/local/cuda-${CUDA_VERSION})
